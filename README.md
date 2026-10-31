@@ -1,22 +1,22 @@
-# ✨ ProyectoFinal-HTML-CSS-TAREA ✨
+# *✨ ProyectoFinal-HTML-CSS-TAREA ✨*
 
-_Último trabajo de **Conquer Blocks** de **CSS** y **HTML**, ¡muchas gracias por seguirme hasta aquí!!_ 🦢📂
-
----
-
-## 📄 Descripción del proyecto
-
-Quinta tarea entregable de **CSS**. El ejercicio consiste en **completar al máximo el proyecto del módulo de HTML** y darle estilos siguiendo los mismos requerimientos que en las entregas anteriores.
-
-Como no hay Figma para este proyecto, el diseño queda a *imaginación propia*: la idea es que sea un proyecto **lo más real posible**, como si fuera para un **cliente final**. 🎯
-
-El resultado es una web para **Conquer Blocks**, una academia online de programación en español. La paleta de colores (naranja y amarillo sobre azul oscuro) sale del logotipo de la academia.
-
-> ⚠️ _Proyecto de aprendizaje inspirado en Conquer Blocks. No es la web oficial de la academia._
+***_Último trabajo de **Conquer Blocks** de **CSS** y **HTML**, ¡muchas gracias por seguirme hasta aquí!!_ 🦢📂***
 
 ---
 
-## 📌 Requerimientos
+## *📄 Descripción del proyecto*
+
+***Quinta tarea entregable de **CSS**. El ejercicio consiste en **completar al máximo el proyecto del módulo de HTML** y darle estilos siguiendo los mismos requerimientos que en las entregas anteriores.***
+
+***Como no hay Figma para este proyecto, el diseño queda a *imaginación propia*: la idea es que sea un proyecto **lo más real posible**, como si fuera para un **cliente final**. 🎯***
+
+***El resultado es una web para **Conquer Blocks**, una academia online de programación en español. La paleta de colores (naranja y amarillo sobre azul oscuro) sale del logotipo de la academia.***
+
+> *⚠️ _Proyecto de aprendizaje inspirado en Conquer Blocks. No es la web oficial de la academia._*
+
+---
+
+## *📌 Requerimientos*
 
 - ✅ **Boilerplate:** partí de mi proyecto de HTML como punto de partida.
 - ✅ **Uso de SASS:** el código está organizado en parciales SCSS (`scss/`) y se compila a `styles.css`.
@@ -28,15 +28,15 @@ El resultado es una web para **Conquer Blocks**, una academia online de programa
 
 ---
 
-## 📂 Estructura del proyecto
+## *📂 Estructura del proyecto*
 
 ```text
-ProyectoFinal-HTML-CSS-TAREA/
+📂ProyectoFinal-HTML-CSS-TAREA
 ├── LICENSE                  # Licencia MIT
 ├── README.md
-└── end-project/
-    ├── images/              # Logotipo e ilustraciones SVG
-    ├── scss/
+└── 📂end-project
+    ├── 📂images              # Logotipo e ilustraciones SVG
+    ├── 📂scss
     │   ├── _variables.scss  # Colores, tipografía, breakpoints y mixin
     │   ├── _base.scss       # Reset y estilos globales
     │   ├── _layout.scss     # Cabecera, pie, rejillas y tarjetas
@@ -58,7 +58,7 @@ ProyectoFinal-HTML-CSS-TAREA/
 
 ---
 
-## 🗂️ Páginas de la web
+## *🗂️ Páginas de la web*
 
 | Página | Archivo | Contenido |
 | --- | --- | --- |
@@ -75,7 +75,7 @@ ProyectoFinal-HTML-CSS-TAREA/
 
 ---
 
-## 🎨 Diseño y estilos
+## *🎨 Diseño y estilos*
 
 - **Colores:** naranja `#ff5a1f`, amarillo `#ffb300` y azul oscuro `#14162b`, con degradado naranja-amarillo como en el logotipo.
 - **Tipografía:** pila de fuentes del sistema (`Segoe UI`, `Roboto`, `Arial`...).
@@ -86,10 +86,10 @@ ProyectoFinal-HTML-CSS-TAREA/
 
 ---
 
-## 🚀 Cómo usarlo
+## *🚀 Cómo usarlo*
 
-1. Clona el repositorio y abre `end-project/index.html` en el navegador.
-2. Si quieres modificar los estilos, instala las dependencias y compila SCSS:
+***1. Clona el repositorio y abre `end-project/index.html` en el navegador.***
+***2. Si quieres modificar los estilos, instala las dependencias y compila SCSS:***
 
 ```bash
 cd end-project
@@ -100,23 +100,23 @@ npm run watch    # compila al guardar
 
 ---
 
-## 📦 Entrega
+## *📦 Entrega*
 
 - 📌 **Repositorio:** repositorio específico para este proyecto.
 - 📌 **Enlace público:** subida a **GitHub Pages** _(pendiente de publicar)_.
 
 ---
 
-## 🛠️ Tecnologías
+## *🛠️ Tecnologías*
 
 **HTML5** · **CSS3** · **SCSS/SASS** · **SVG** · **Git & GitHub**
 
 ---
 
-## 📜 Licencia
+## *📜 Licencia*
 
-Este proyecto está bajo la licencia **MIT**. Consulta el archivo [LICENSE](./LICENSE) para más información. ✅
+***Este proyecto está bajo la licencia **MIT**. Consulta el archivo [LICENSE](./LICENSE) para más información. ✅***
 
 ---
 
-_Hecho con ❤️ y mucho café por **valentinoaguiarhirales1-art**_ ✨
+***_Hecho con ❤️ y mucho café por **Vale :D**_ ✨***
