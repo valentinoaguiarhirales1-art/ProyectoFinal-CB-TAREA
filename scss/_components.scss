@@ -1,0 +1,190 @@
+@use "variables" as *;
+
+// Botones
+.boton,
+button {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  background: $gradiente;
+  color: $blanco;
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s, color 0.2s;
+
+  &:hover,
+  &:focus-visible {
+    color: $blanco;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba($naranja, 0.4);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+button[type="reset"],
+.boton--claro {
+  background: transparent;
+  border-color: $oscuro;
+  color: $oscuro;
+
+  &:hover,
+  &:focus-visible {
+    background: $oscuro;
+    color: $blanco;
+    box-shadow: none;
+  }
+}
+
+// Hero de la portada
+.hero {
+  margin: -2rem -1.25rem 2rem;
+  padding: 3rem 1.25rem;
+  background: $oscuro;
+  background-image: radial-gradient(circle at 85% 10%, rgba($naranja, 0.45), transparent 45%),
+    radial-gradient(circle at 10% 90%, rgba($amarillo, 0.25), transparent 40%);
+  color: $blanco;
+  text-align: center;
+
+  h1 {
+    color: $blanco;
+    font-size: 2.2rem;
+  }
+
+  &__etiqueta {
+    display: inline-block;
+    margin: 0 0 1rem;
+    padding: 0.25rem 0.9rem;
+    border-radius: 999px;
+    background: rgba($blanco, 0.12);
+    color: $amarillo;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  &__texto {
+    max-width: 560px;
+    margin: 0.5rem auto 1.5rem;
+    color: rgba($blanco, 0.85);
+    font-size: 1.1rem;
+  }
+
+  .boton--claro {
+    border-color: $blanco;
+    color: $blanco;
+
+    &:hover,
+    &:focus-visible {
+      background: $blanco;
+      color: $oscuro;
+    }
+  }
+
+  @include desde($bp-tablet) {
+    margin: -3rem -2rem 3rem;
+    padding: 5rem 2rem;
+
+    h1 {
+      font-size: 3.2rem;
+    }
+  }
+
+  @include desde($bp-desktop) {
+    margin-inline: calc(50% - 50vw);
+    padding-inline: 2rem;
+  }
+
+}
+
+// Formularios
+form {
+  max-width: 560px;
+  padding: 1.5rem;
+  background: $blanco;
+  border: 1px solid $borde;
+  border-radius: $radio;
+  box-shadow: $sombra;
+
+  p {
+    margin: 0 0 1rem;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.3rem;
+    color: $oscuro;
+    font-weight: 600;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.65rem 0.9rem;
+    border: 1px solid $borde;
+    border-radius: 10px;
+    background: $claro;
+    color: $texto;
+    font: inherit;
+    transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+
+    &:hover {
+      border-color: $gris;
+    }
+
+    &:focus {
+      outline: none;
+      border-color: $naranja;
+      background: $blanco;
+      box-shadow: 0 0 0 3px rgba($naranja, 0.2);
+    }
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  button {
+    margin-right: 0.5rem;
+  }
+}
+
+// Listas de contenido
+main ul {
+  padding-left: 1.25rem;
+
+  li {
+    margin-bottom: 0.4rem;
+
+    &::marker {
+      color: $naranja;
+    }
+  }
+}
+
+iframe {
+  width: 100%;
+  height: 320px;
+  border-radius: $radio;
+  box-shadow: $sombra;
+
+  @include desde($bp-tablet) {
+    height: 420px;
+  }
+}
+
+// Portada y "Quiénes somos": imagen junto al texto en escritorio
+main > section > img {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  margin-bottom: 1rem;
+  border-radius: $radio;
+  box-shadow: $sombra;
+}

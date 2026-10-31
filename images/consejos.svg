@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" rx="24" fill="#fefce8"/>
+  <rect x="92" y="62" width="284" height="232" rx="16" fill="#fff" stroke="#facc15" stroke-width="8"/>
+  <path d="M130 112h208m-208 48h142m-142 48h190m-190 48h110" stroke="#cbd5e1" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="462" cy="130" r="48" fill="#fbbf24"/>
+  <path d="M438 132h48m-24-24v48" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  <path d="m410 220 34 34 78-82" fill="none" stroke="#16a34a" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="338" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#854d0e">ORGANIZA TUS PRIMEROS PROYECTOS</text>
+</svg>

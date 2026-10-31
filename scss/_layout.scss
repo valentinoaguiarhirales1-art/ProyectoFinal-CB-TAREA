@@ -1,0 +1,166 @@
+@use "variables" as *;
+
+// Cabecera: logo + navegación (mobile first)
+body > header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: $oscuro;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+
+  img {
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav a {
+    display: block;
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+    color: $blanco;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+
+    &:hover,
+    &:focus-visible {
+      background: $gradiente;
+      color: $blanco;
+    }
+  }
+
+  @include desde($bp-desktop) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem max(2rem, calc((100% - #{$ancho-max}) / 2));
+
+    nav a {
+      font-size: 1rem;
+    }
+  }
+}
+
+// Pie
+body > footer {
+  padding: 2rem 1rem;
+  background: $oscuro;
+  color: rgba($blanco, 0.75);
+  text-align: center;
+  font-size: 0.9rem;
+
+  p {
+    margin: 0.25rem 0;
+  }
+
+  a {
+    color: $amarillo;
+
+    &:hover,
+    &:focus-visible {
+      color: $blanco;
+    }
+  }
+}
+
+// Rejilla de tarjetas (cursos, noticias)
+section:has(> article) {
+  display: grid;
+  gap: 1.5rem;
+
+  > h2,
+  > p {
+    grid-column: 1 / -1;
+    margin-top: 0;
+  }
+
+  @include desde($bp-tablet) {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+section:has(> article) > h2 {
+  margin-top: 2rem;
+}
+
+// Páginas con una sola columna de lectura
+section {
+  margin-bottom: 1rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  background: $blanco;
+  border: 1px solid $borde;
+  border-radius: $radio;
+  box-shadow: $sombra;
+  transition: transform 0.2s, box-shadow 0.2s;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 32px rgba($oscuro, 0.14);
+  }
+
+  img {
+    border-radius: 12px;
+  }
+
+  h3 {
+    margin-top: 1rem;
+  }
+
+  p:last-child {
+    margin-top: auto;
+    margin-bottom: 0;
+  }
+}
+
+// Artículo de noticia a página completa
+main > article {
+  max-width: 760px;
+  margin: 0 auto 1.5rem;
+  padding: 1.5rem;
+
+  &:hover {
+    transform: none;
+    box-shadow: $sombra;
+  }
+
+  header {
+    img {
+      margin-top: 1rem;
+    }
+
+    p {
+      color: $gris;
+      font-size: 0.9rem;
+    }
+  }
+
+  p:last-child {
+    margin-top: 1rem;
+  }
+}
+
+main > p:last-child a,
+main > section > p a {
+  text-decoration: none;
+}

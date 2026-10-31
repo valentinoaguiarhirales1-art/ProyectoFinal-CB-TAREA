@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" rx="24" fill="#f0fdf4"/>
+  <rect x="126" y="198" width="388" height="22" rx="11" fill="#0f766e"/>
+  <path d="M166 220v64m308-64v64" stroke="#0f766e" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="232" cy="112" r="34" fill="#fbbf24"/>
+  <circle cx="320" cy="96" r="36" fill="#fb923c"/>
+  <circle cx="408" cy="112" r="34" fill="#38bdf8"/>
+  <path d="M176 190q8-56 56-56t56 56m-2-10q10-70 66-70t66 70m-2 10q8-56 56-56t56 56" fill="#14b8a6"/>
+  <rect x="270" y="174" width="100" height="46" rx="8" fill="#172554"/>
+  <path d="m310 189-12 8 12 8m20-16 12 8-12 8" fill="none" stroke="#e0f2fe" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="332" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#134e4a">APRENDER EN COMUNIDAD</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" rx="24" fill="#e0f2fe"/>
+  <circle cx="500" cy="82" r="44" fill="#fde68a"/>
+  <rect x="118" y="64" width="350" height="218" rx="16" fill="#172554"/>
+  <rect x="132" y="80" width="322" height="184" rx="8" fill="#f8fafc"/>
+  <path d="m177 132 22 18-22 18m46 0h62m-108 34 22 18-22 18m46 0h94" fill="none" stroke="#0284c7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M274 282h56l28 28H246z" fill="#64748b"/>
+  <text x="320" y="338" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#172554">APRENDE · PRACTICA · CRECE</text>
+</svg>

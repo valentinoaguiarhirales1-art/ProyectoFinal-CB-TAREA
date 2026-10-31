@@ -1,0 +1,27 @@
+// Paleta basada en el logotipo de Conquer Blocks
+$naranja: #ff5a1f;
+$naranja-oscuro: #c93a00;
+$amarillo: #ffb300;
+$oscuro: #14162b;
+$oscuro-2: #1f2240;
+$texto: #2b2d42;
+$gris: #6b7085;
+$claro: #f6f5fb;
+$blanco: #fff;
+$borde: #e4e3ef;
+
+$gradiente: linear-gradient(135deg, $amarillo, $naranja);
+
+$fuente: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+$ancho-max: 1100px;
+$radio: 16px;
+$sombra: 0 8px 24px rgba($oscuro, 0.08);
+
+$bp-tablet: 768px;
+$bp-desktop: 1024px;
+
+@mixin desde($bp) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}

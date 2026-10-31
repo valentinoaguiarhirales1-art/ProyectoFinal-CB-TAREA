@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" rx="24" fill="#eff6ff"/>
+  <rect x="96" y="54" width="448" height="250" rx="18" fill="#1e3a8a"/>
+  <rect x="112" y="72" width="416" height="32" rx="8" fill="#bfdbfe"/>
+  <circle cx="132" cy="88" r="6" fill="#ef4444"/>
+  <circle cx="152" cy="88" r="6" fill="#f59e0b"/>
+  <circle cx="172" cy="88" r="6" fill="#22c55e"/>
+  <rect x="112" y="116" width="416" height="172" rx="8" fill="#fff"/>
+  <path d="m170 154 22 18-22 18m42 0h104m-146 36 22 18-22 18m42 0h160" fill="none" stroke="#2563eb" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="422" y="186" font-family="Arial,sans-serif" font-size="42" font-weight="700" fill="#f97316">&lt;/&gt;</text>
+  <text x="320" y="338" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#1e3a8a">DESARROLLO FRONTEND</text>
+</svg>

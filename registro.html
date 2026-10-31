@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conquer Blocks - Registro</title>
+    <meta name="description" content="Crea tu cuenta en Conquer Blocks rellenando el formulario de registro.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="images/logo-conquer.png" alt="Logotipo de Conquer Blocks" width="120" height="120">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quienes-somos.html">Quiénes somos</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Registro</h1>
+        <p>Rellena tus datos para crear tu cuenta.</p>
+
+        <section>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <p>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre y apellidos" required>
+                </p>
+
+                <p>
+                    <label for="nacimiento">Fecha de nacimiento:</label>
+                    <input type="date" id="nacimiento" name="nacimiento" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                </p>
+
+                <p>
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="direccion" placeholder="Calle y número" required>
+                </p>
+
+                <p>
+                    <label for="web">Página web:</label>
+                    <input type="url" id="web" name="web" placeholder="https://tusitio.com">
+                </p>
+
+                <p>
+                    <label for="foto">Foto:</label>
+                    <input type="file" id="foto" name="foto" accept="image/*">
+                </p>
+
+                <p>
+                    <label for="biografia">Biografía:</label><br>
+                    <textarea id="biografia" name="biografia" rows="6" cols="40" placeholder="Cuéntanos algo sobre ti y por qué quieres aprender a programar"></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Registrarme</button>
+                    <button type="reset">Borrar todo</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Conquer Blocks. Todos los derechos reservados.</p>
+        <p><a href="aviso-legal.html">Aviso legal</a></p>
+    </footer>
+
+</body>
+</html>
