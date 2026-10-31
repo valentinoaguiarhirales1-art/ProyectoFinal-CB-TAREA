@@ -31,28 +31,29 @@ El resultado es una web para **Conquer Blocks**, una academia online de programa
 ## 📂 Estructura del proyecto
 
 ```text
-ProyectoFinal CB (Tarea)/
-├── images/              # Logotipo e ilustraciones SVG
-├── scss/
-│   ├── _variables.scss  # Colores, tipografía, breakpoints y mixin
-│   ├── _base.scss       # Reset y estilos globales
-│   ├── _layout.scss     # Cabecera, pie, rejillas y tarjetas
-│   ├── _components.scss # Botones, hero, formularios, listas
-│   └── main.scss        # Archivo principal que importa los parciales
-├── styles.css           # CSS compilado desde SCSS
-├── index.html
-├── quienes-somos.html
-├── cursos.html
-├── detalle-curso.html
-├── blog.html
-├── detalle-noticia.html
-├── registro.html
-├── login.html
-├── contacto.html
-├── aviso-legal.html
-├── package.json
-├── LICENSE              # Licencia MIT
-└── README.md
+ProyectoFinal-HTML-CSS-TAREA/
+├── LICENSE                  # Licencia MIT
+├── README.md
+└── end-project/
+    ├── images/              # Logotipo e ilustraciones SVG
+    ├── scss/
+    │   ├── _variables.scss  # Colores, tipografía, breakpoints y mixin
+    │   ├── _base.scss       # Reset y estilos globales
+    │   ├── _layout.scss     # Cabecera, pie, rejillas y tarjetas
+    │   ├── _components.scss # Botones, hero, formularios, listas
+    │   └── main.scss        # Archivo principal que importa los parciales
+    ├── styles.css           # CSS compilado desde SCSS
+    ├── index.html
+    ├── quienes-somos.html
+    ├── cursos.html
+    ├── detalle-curso.html
+    ├── blog.html
+    ├── detalle-noticia.html
+    ├── registro.html
+    ├── login.html
+    ├── contacto.html
+    ├── aviso-legal.html
+    └── package.json
 ```
 
 ---
@@ -87,10 +88,11 @@ ProyectoFinal CB (Tarea)/
 
 ## 🚀 Cómo usarlo
 
-1. Clona el repositorio y abre `index.html` en el navegador.
+1. Clona el repositorio y abre `end-project/index.html` en el navegador.
 2. Si quieres modificar los estilos, instala las dependencias y compila SCSS:
 
 ```bash
+cd end-project
 npm install
 npm run sass     # compila una vez
 npm run watch    # compila al guardar
