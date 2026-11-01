@@ -1,9 +1,5 @@
 # *✨ ProyectoFinal-HTML-CSS-TAREA ✨*
 
-***_Último trabajo de **Conquer Blocks** de **CSS** y **HTML**, ¡muchas gracias por seguirme hasta aquí!!_ 🦢📂***
-
----
-
 ## *📄 Descripción del proyecto*
 
 ***Quinta tarea entregable de **CSS**. El ejercicio consiste en **completar al máximo el proyecto del módulo de HTML** y darle estilos siguiendo los mismos requerimientos que en las entregas anteriores.***
